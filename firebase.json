@@ -1,0 +1,9 @@
+{
+  "firebase": "pp1-trip-planner",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
