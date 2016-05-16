@@ -16,7 +16,7 @@ Local and regional travelers.
 
 Travel options and key details, such as estimated time, distance, and cost.
 
-#v# What Inputs Are Needed to Generate Those Outputs?
+### What Inputs Are Needed to Generate Those Outputs?
 
 Valid starting point and ending point.
 
@@ -49,4 +49,4 @@ Valid starting point and ending point.
 
 ### Persona
 
-![alt text](# "Title Text")
+![alt text](https://github.com/chrisco/pp1-trip-planner/blob/develop/Persona%20-%20James%20Bowden.png "Persona")
