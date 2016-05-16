@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  console.log("foo");
+  console.log("jQuery is loaded");
 });

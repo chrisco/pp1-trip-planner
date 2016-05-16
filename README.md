@@ -49,4 +49,4 @@ Valid starting point and ending point.
 
 ### Persona
 
-![alt text](https://github.com/chrisco/pp1-trip-planner/blob/develop/misc/Persona%20-%20James%20Bowden.png "Persona")
+![Persona](persona.png)
