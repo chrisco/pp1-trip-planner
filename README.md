@@ -3,6 +3,7 @@
 * This is our first personal project as part of the Galvanize Full Stack program.
 * The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, and agile software development with Scrum.
 * The approved project proposal is below.
+* See the current state of the app at https://pp1-trip-planner.firebaseapp.com/
 
 ## Project Proposal
 
@@ -30,10 +31,9 @@ Valid starting point and ending point.
 * A JavaScript testing framework (stretch)
 * jQuery
 * The Google Maps API (and possibly other APIs)
-* A host, such as AWS, Digital Ocean, Firebase or Heroku
+* Firebase
 * Git and Github
 * A continuous integration server (stretch)
-* PivotalTracker for agile project management
 
 ### Feature List
 
