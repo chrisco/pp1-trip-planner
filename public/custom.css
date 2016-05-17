@@ -1,17 +1,17 @@
-.container-fluid {
+/*.container-fluid {
   background-color: hsl(221, 61%, 60%);
   width: 70vw;
-}
+}*/
 
 #map {
   width: 45vw;
   height: 45vw;
   background-color: hsl(221, 61%, 90%);
-  margin-bottom: 10vh;
+  margin: 3vh auto;
 }
 
-.center-block {
+/*.center-block {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+}*/

@@ -17,6 +17,16 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- My app's custom CSS -->
+  	<link rel="stylesheet" href="custom.css" charset="utf-8">
+
+    <!-- My App's custom CSS -->
+    <script src="map.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+  	<!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX08t4Vu-mrCGjrfRINnqm3rdneDvNMkY&callback=initMap"
+  async defer></script>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -77,7 +87,20 @@
           <h5>Boom.</h5>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="assets/img/browser.png" class="img-responsive">
+					<!-- <img src="assets/img/browser.png" class="img-responsive"> -->
+          <div id=" floating-panel">
+          <b>Start: </b>
+          <select id="start">
+            <option value="chicago, il">Chicago</option>
+            <option value="st louis, mo">St Louis</option>
+          </select>
+          <b>End: </b>
+          <select id="end">
+            <option value="chicago, il">Chicago</option>
+            <option value="st louis, mo">St Louis</option>
+          </select>
+          </div>
+          <div id="map"></div>
 				</div>
 			</div><!-- /row -->
 	    </div> <!-- /container -->
