@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>pp1-trip-planner</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- My app's custom CSS -->
+	<link rel="stylesheet" href="custom.css" charset="utf-8">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" defer></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js" charset="utf-8"></script>
+
+  <!-- My App's custom CSS -->
+  <script src="map.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+
+	<!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX08t4Vu-mrCGjrfRINnqm3rdneDvNMkY&callback=initMap"
+async defer></script>
+
+</head>
+
+<body>
+
+
+  <div id="floating-panel">
+  <b>Start: </b>
+  <select id="start">
+    <option value="chicago, il">Chicago</option>
+    <option value="st louis, mo">St Louis</option>
+    <option value="joplin, mo">Joplin, MO</option>
+    <option value="oklahoma city, ok">Oklahoma City</option>
+    <option value="amarillo, tx">Amarillo</option>
+    <option value="gallup, nm">Gallup, NM</option>
+    <option value="flagstaff, az">Flagstaff, AZ</option>
+    <option value="winona, az">Winona</option>
+    <option value="kingman, az">Kingman</option>
+    <option value="barstow, ca">Barstow</option>
+    <option value="san bernardino, ca">San Bernardino</option>
+    <option value="los angeles, ca">Los Angeles</option>
+  </select>
+  <b>End: </b>
+  <select id="end">
+    <option value="chicago, il">Chicago</option>
+    <option value="st louis, mo">St Louis</option>
+    <option value="joplin, mo">Joplin, MO</option>
+    <option value="oklahoma city, ok">Oklahoma City</option>
+    <option value="amarillo, tx">Amarillo</option>
+    <option value="gallup, nm">Gallup, NM</option>
+    <option value="flagstaff, az">Flagstaff, AZ</option>
+    <option value="winona, az">Winona</option>
+    <option value="kingman, az">Kingman</option>
+    <option value="barstow, ca">Barstow</option>
+    <option value="san bernardino, ca">San Bernardino</option>
+    <option value="los angeles, ca">Los Angeles</option>
+  </select>
+  </div>
+  <div id="map"></div>
+
+
+
+	<!-- <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Hello World</h1>
+				<h4>The actual app is coming soon</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 center-block">
+				<div id="map">Testing 123</div>
+			</div>
+		</div>
+	</div> -->
+</body>
+
+</html>
