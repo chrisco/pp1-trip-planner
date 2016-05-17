@@ -87,17 +87,27 @@
 				<div class="col-lg-8 col-lg-offset-2 himg">
 					<!-- <img src="assets/img/browser.png" class="img-responsive"> -->
           <div id="floating-panel">
-          <!-- <b>Start: </b> -->
-          <label for="start">Start:</label>
-          <input id="start" type="text" name="start" value="">
-          <!-- <b>End: </b> -->
-          <label for="end">End:</label>
-          
-          <input id="end" type="text" name="end" value="">
-          <br><br>
-          <button id="submit" type="button" class="btn btn-success">Plan My Trip</button>
-
-          </div>
+<b>Start: </b>
+<select id="start">
+  <option value="penn station, new york, ny">Penn Station</option>
+  <option value="grand central station, new york, ny">Grand Central Station</option>
+  <option value="625 8th Avenue, New York, NY, 10018">Port Authority Bus Terminal</option>
+  <option value="staten island ferry terminal, new york, ny">Staten Island Ferry Terminal</option>
+  <option value="101 E 125th Street, New York, NY">Harlem - 125th St Station</option>
+</select>
+<b>End: </b>
+<select id="end">
+  <option value="260 Broadway New York NY 10007">City Hall</option>
+  <option value="W 49th St & 5th Ave, New York, NY 10020">Rockefeller Center</option>
+  <option value="moma, New York, NY">MOMA</option>
+  <option value="350 5th Ave, New York, NY, 10118">Empire State Building</option>
+  <option value="253 West 125th Street, New York, NY">Apollo Theater</option>
+  <option value="1 Wall St, New York, NY">Wall St</option>
+</select>
+</div>
+<div id="map"></div>
+&nbsp;
+<div id="warnings-panel"></div
           <div id="map"></div>
 				</div>
 			</div><!-- /row -->
