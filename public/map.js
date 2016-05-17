@@ -7,7 +7,8 @@ function initMap() {
   // Create a map and center it on Manhattan.
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
-    center: {lat: 40.771, lng: -73.974}
+    // center: {lat: 40.771, lng: -73.974} // Manhattan
+    center: {lat: 39.7576859, lng: -105.0072004} // Denver
   });
 
   // Create a renderer for directions and bind it to the map.

@@ -1,295 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>Simple Trip Planner</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	<title>Galvanize Trip Planner</title>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- My app's custom CSS -->
-  	<link rel="stylesheet" href="custom.css" charset="utf-8">
+	<!-- Custom styles for this template -->
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- My App's custom CSS -->
-    <script src="map.js" charset="utf-8"></script>
-    <script src="app.js" charset="utf-8"></script>
+	<!-- My app's custom CSS -->
+	<link rel="stylesheet" href="custom.css" charset="utf-8">
 
-  	<!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX08t4Vu-mrCGjrfRINnqm3rdneDvNMkY&callback=initMap"
-  async defer></script>
+	<!-- My App's custom CSS -->
+	<script src="map.js" charset="utf-8"></script>
+	<script src="app.js" charset="utf-8"></script>
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<!-- Google Maps -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX08t4Vu-mrCGjrfRINnqm3rdneDvNMkY&callback=initMap" async defer></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+	<!-- Just for debugging purposes. Don't actually copy this line! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="assets/js/modernizr.js"></script>
-  </head>
+	<script src="assets/js/modernizr.js"></script>
+</head>
 
-  <body>
+<body>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Simple Trip Planner</a>
-        </div>
-        <div class="navbar-collapse collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">SINGLE POST</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">SINGLE PROJECT</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Galvanize Trip Planner</a>
+			</div>
+			<div class="navbar-collapse collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">BLOG</a></li>
+							<li><a href="#">SINGLE POST</a></li>
+							<li><a href="#">PORTFOLIO</a></li>
+							<li><a href="#">SINGLE PROJECT</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
 
 	<!-- *****************************************************************************************************************
 	 HEADERWRAP
 	 ***************************************************************************************************************** -->
 	<div id="headerwrap">
-	    <div class="container">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h3>Trip planning</h3>
-					<h1>made simple</h1>
-					<h5>Enter your starting and ending points and press the button. Boom.</h5>
+					<h3>Hey new students and memebers</h3>
+					<h1>Welcome to the Galvanize Trip Planner</h1>
+					<h5>Get walking directions to/from campus, Meetups, and other points of interests</h5>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
 					<!-- <img src="assets/img/browser.png" class="img-responsive"> -->
-          <div id="floating-panel">
-<b>Start: </b>
-<select id="start">
-  <option value="penn station, new york, ny">Penn Station</option>
+					<div id="floating-panel">
+						<b>Point A: </b>
+						<select id="start">
+							<option value="1644 Platte St, Denver, CO 80202">Galvanize - Platte</option>
+							<option value="1062 Delaware St, Denver, CO 80204">Galvanize - Golden Triangle</option>
+							<!-- <option value="penn station, new york, ny">Penn Station</option>
   <option value="grand central station, new york, ny">Grand Central Station</option>
   <option value="625 8th Avenue, New York, NY, 10018">Port Authority Bus Terminal</option>
   <option value="staten island ferry terminal, new york, ny">Staten Island Ferry Terminal</option>
-  <option value="101 E 125th Street, New York, NY">Harlem - 125th St Station</option>
-</select>
-<b>End: </b>
-<select id="end">
-  <option value="260 Broadway New York NY 10007">City Hall</option>
+  <option value="101 E 125th Street, New York, NY">Harlem - 125th St Station</option> -->
+						</select>
+						<b>Point B: </b>
+						<select id="end">
+							<option value="1062 Delaware St, Denver, CO 80204">Galvanize - Golden Triangle</option>
+							<option value="1644 Platte St, Denver, CO 80202">Galvanize - Platte</option>
+							<!-- <option value="260 Broadway New York NY 10007">City Hall</option>
   <option value="W 49th St & 5th Ave, New York, NY 10020">Rockefeller Center</option>
   <option value="moma, New York, NY">MOMA</option>
   <option value="350 5th Ave, New York, NY, 10118">Empire State Building</option>
   <option value="253 West 125th Street, New York, NY">Apollo Theater</option>
-  <option value="1 Wall St, New York, NY">Wall St</option>
-</select>
-</div>
-<div id="map"></div>
-&nbsp;
-<div id="warnings-panel"></div
-          <div id="map"></div>
-				</div>
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /headerwrap -->
+  <option value="1 Wall St, New York, NY">Wall St</option> -->
+						</select>
+					</div>
+					<div id="map"></div>
+					&nbsp;
+					<div id="warnings-panel"></div <div id="map"></div>
+			</div>
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+	</div>
+	<!-- /headerwrap -->
 
 	<!-- *****************************************************************************************************************
 	 SERVICE LOGOS
 	 ***************************************************************************************************************** -->
-	 <div id="service">
-	 	<div class="container">
- 			<div class="row centered">
- 				<div class="col-md-4">
- 					<i class="fa fa-map-marker"></i>
- 					<h4>Optimize Your Travel Plans</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-heart-o"></i>
- 					<h4>So You Can Spend More Time With Your Loved Ones</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-bookmark"></i>
- 					<h4>Bookmark Simple Trip Planner Now</h4>
- 					<p>Or download the app from the app store.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
-	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
+	<div id="service">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<h4>Get the Lay of the Land</h4>
+					<p>New in town? Trying to find your way around? You've come to the right place.</p>
+					<p>
+						<br/><a href="#" class="btn btn-theme">More Info</a></p>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-heart-o"></i>
+					<h4>Fall in Love With Denver</h4>
+					<p>The best way to get to know the city is by walking.</p>
+					<p>
+						<br/><a href="#" class="btn btn-theme">More Info</a></p>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-bookmark"></i>
+					<h4>Coming Soon</h4>
+					<p>Create accounts to save your favorite places, browse by category, tag, search, review, rate, and more.</p>
+					<p>
+						<br/><a href="#" class="btn btn-theme">More Info</a></p>
+				</div>
+			</div>
+		</div>
+		<! --/container -->
+	</div>
+	<! --/service -->
 
 
 
 	<!-- *****************************************************************************************************************
 	 TESTIMONIALS
 	 ***************************************************************************************************************** -->
-	 <div id="twrap">
-	 	<div class="container centered">
-	 		<div class="row">
-	 			<div class="col-lg-8 col-lg-offset-2">
-	 			<i class="fa fa-comment-o"></i>
-	 			<p>"Smart Trip Planner helps save me time and money and also minimize my personal carbon footprint."</p>
-	 			<h4><br/>James Bowden</h4>
-	 			<p>DEVELOPER</p>
-	 			</div>
-	 		</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/twrap -->
+	<div id="twrap">
+		<div class="container centered">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<i class="fa fa-comment-o"></i>
+					<p>"I love you guys."</p>
+					<h4><br/>James Bowden</h4>
+					<p>DEVELOPER</p>
+				</div>
+			</div>
+			<! --/row -->
+		</div>
+		<! --/container -->
+	</div>
+	<! --/twrap -->
 
 
 
 	<!-- *****************************************************************************************************************
 	 FOOTER
 	 ***************************************************************************************************************** -->
-	 <div id="footerwrap">
-	 	<div class="container">
-		 	<div class="row">
-		 		<div class="col-lg-4">
-		 			<h4>About</h4>
-		 			<div class="hline-w"></div>
-		 			<p>"Smart Trip Planner is our first personal project as part of the Galvanize Full Stack program. The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, Bootstrap, and agile software development with Scrum.""</p>
-		 		</div>
-		 		<div class="col-lg-4">
-		 			<h4>Links</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				<a href="http://www.linkedin.com/in/comella"><i class="fa fa-linkedin"></i></a>
-            <a href="http://www.twitter.com/chrisco"><i class="fa fa-twitter"></i></a>
-		 				<a href="http://www.github.com/chrisco"><i class="fa fa-github"></i></a>
-		 			</p>
-		 		</div>
-		 		<div class="col-lg-4">
-		 			<h4>Campus</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				Galvanize<br/>
-		 				1644 Platte St<br/>
-		 				Denver, Colorado<br/>
-		 			</p>
-		 		</div>
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>About</h4>
+					<div class="hline-w"></div>
+					<p>"Galvanize Trip Planner is our first personal project as part of the Galvanize Full Stack program. The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript,
+						jQuery, APIs, design, UX, Bootstrap, and agile software development with Scrum.""</p>
+				</div>
+				<div class="col-lg-4">
+					<h4>Links</h4>
+					<div class="hline-w"></div>
+					<p>
+						<a href="http://www.linkedin.com/in/comella"><i class="fa fa-linkedin"></i></a>
+						<a href="http://www.twitter.com/chrisco"><i class="fa fa-twitter"></i></a>
+						<a href="http://www.github.com/chrisco"><i class="fa fa-github"></i></a>
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<h4>Galvanize</h4>
+					<div class="hline-w"></div>
+					<p>
+						<a href="http://galvanize.com">Galvanize.com</a>
+             |
+            <a href="https://goo.gl/maps/P112z6V5gdo">1644 Platte St, Denver, Colorado, USA</a>
+					</p>
+				</div>
 
-		 	</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/footerwrap -->
+			</div>
+			<! --/row -->
+		</div>
+		<! --/container -->
+	</div>
+	<! --/footerwrap -->
 
-    <!-- Bootstrap core JavaScript
+	<!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/retina-1.1.0.js"></script>
 	<script src="assets/js/jquery.hoverdir.js"></script>
 	<script src="assets/js/jquery.hoverex.min.js"></script>
 	<script src="assets/js/jquery.prettyPhoto.js"></script>
-  	<script src="assets/js/jquery.isotope.min.js"></script>
-  	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/jquery.isotope.min.js"></script>
+	<script src="assets/js/custom.js"></script>
 
 
-    <script>
-// Portfolio
-(function($) {
-	"use strict";
-	var $container = $('.portfolio'),
-		$items = $container.find('.portfolio-item'),
-		portfolioLayout = 'fitRows';
+	<script>
+		// Portfolio
+		(function($) {
+			"use strict";
+			var $container = $('.portfolio'),
+				$items = $container.find('.portfolio-item'),
+				portfolioLayout = 'fitRows';
 
-		if( $container.hasClass('portfolio-centered') ) {
-			portfolioLayout = 'masonry';
-		}
+			if ($container.hasClass('portfolio-centered')) {
+				portfolioLayout = 'masonry';
+			}
 
-		$container.isotope({
-			filter: '*',
-			animationEngine: 'best-available',
-			layoutMode: portfolioLayout,
-			animationOptions: {
-			duration: 750,
-			easing: 'linear',
-			queue: false
-		},
-		masonry: {
-		}
-		}, refreshWaypoints());
+			$container.isotope({
+				filter: '*',
+				animationEngine: 'best-available',
+				layoutMode: portfolioLayout,
+				animationOptions: {
+					duration: 750,
+					easing: 'linear',
+					queue: false
+				},
+				masonry: {}
+			}, refreshWaypoints());
 
-		function refreshWaypoints() {
-			setTimeout(function() {
-			}, 1000);
-		}
+			function refreshWaypoints() {
+				setTimeout(function() {}, 1000);
+			}
 
-		$('nav.portfolio-filter ul a').on('click', function() {
+			$('nav.portfolio-filter ul a').on('click', function() {
 				var selector = $(this).attr('data-filter');
-				$container.isotope({ filter: selector }, refreshWaypoints());
+				$container.isotope({
+					filter: selector
+				}, refreshWaypoints());
 				$('nav.portfolio-filter ul a').removeClass('active');
 				$(this).addClass('active');
 				return false;
-		});
+			});
 
-		function getColumnNumber() {
-			var winWidth = $(window).width(),
-			columnNumber = 1;
+			function getColumnNumber() {
+				var winWidth = $(window).width(),
+					columnNumber = 1;
 
-			if (winWidth > 1200) {
-				columnNumber = 5;
-			} else if (winWidth > 950) {
-				columnNumber = 4;
-			} else if (winWidth > 600) {
-				columnNumber = 3;
-			} else if (winWidth > 400) {
-				columnNumber = 2;
-			} else if (winWidth > 250) {
-				columnNumber = 1;
-			}
+				if (winWidth > 1200) {
+					columnNumber = 5;
+				} else if (winWidth > 950) {
+					columnNumber = 4;
+				} else if (winWidth > 600) {
+					columnNumber = 3;
+				} else if (winWidth > 400) {
+					columnNumber = 2;
+				} else if (winWidth > 250) {
+					columnNumber = 1;
+				}
 				return columnNumber;
 			}
 
 			function setColumns() {
 				var winWidth = $(window).width(),
-				columnNumber = getColumnNumber(),
-				itemWidth = Math.floor(winWidth / columnNumber);
+					columnNumber = getColumnNumber(),
+					itemWidth = Math.floor(winWidth / columnNumber);
 
 				$container.find('.portfolio-item').each(function() {
-					$(this).css( {
-					width : itemWidth + 'px'
+					$(this).css({
+						width: itemWidth + 'px'
+					});
 				});
+			}
+
+			function setPortfolio() {
+				setColumns();
+				$container.isotope('reLayout');
+			}
+
+			$container.imagesLoaded(function() {
+				setPortfolio();
 			});
-		}
 
-		function setPortfolio() {
-			setColumns();
-			$container.isotope('reLayout');
-		}
+			$(window).on('resize', function() {
+				setPortfolio();
+			});
+		})(jQuery);
+	</script>
+</body>
 
-		$container.imagesLoaded(function () {
-			setPortfolio();
-		});
-
-		$(window).on('resize', function () {
-		setPortfolio();
-	});
-})(jQuery);
-</script>
-  </body>
 </html>
