@@ -3,9 +3,16 @@
   width: 70vw;
 }*/
 
-#map {
+#submit {
   width: 45vw;
-  height: 45vw;
+  /*height: 45vw;
+  background-color: hsl(221, 61%, 90%);
+  margin: 3vh auto;*/
+}
+
+#map {
+  width: 66vw;
+  height: 66vw;
   background-color: hsl(221, 61%, 90%);
   margin: 3vh auto;
 }

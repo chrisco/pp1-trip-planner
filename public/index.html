@@ -82,23 +82,21 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h3>Trip planning</h3>
 					<h1>made simple</h1>
-					<h5>Enter your origin and destination</h5>
-					<h5>in the form below and press go.</h5>
-          <h5>Boom.</h5>
+					<h5>Enter your starting and ending points and press the button. Boom.</h5>
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
 					<!-- <img src="assets/img/browser.png" class="img-responsive"> -->
-          <div id=" floating-panel">
-          <b>Start: </b>
-          <select id="start">
-            <option value="chicago, il">Chicago</option>
-            <option value="st louis, mo">St Louis</option>
-          </select>
-          <b>End: </b>
-          <select id="end">
-            <option value="chicago, il">Chicago</option>
-            <option value="st louis, mo">St Louis</option>
-          </select>
+          <div id="floating-panel">
+          <!-- <b>Start: </b> -->
+          <label for="start">Start:</label>
+          <input id="start" type="text" name="start" value="">
+          <!-- <b>End: </b> -->
+          <label for="end">End:</label>
+          
+          <input id="end" type="text" name="end" value="">
+          <br><br>
+          <button id="submit" type="button" class="btn btn-success">Plan My Trip</button>
+
           </div>
           <div id="map"></div>
 				</div>
