@@ -1,7 +1,7 @@
 # Personal Project 1 - Simple Trip Planner App
 
 * This is our first personal project as part of the Galvanize Full Stack program.
-* The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, and agile software development with Scrum.
+* The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, Bootstrap, and agile software development with Scrum.
 * The approved project proposal is below.
 
 ## Project Proposal
