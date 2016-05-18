@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	function createOptions(rawData) {
 		rawData.Sheet1.forEach(function(venue) {
-			console.log(venue);
+			// console.log(venue);
 			var $option = $("<option>")
 				.text(venue.venue)
 				.attr("value", venue.address);
@@ -13,4 +13,6 @@ $(document).ready(function() {
       $("#end").append($option2);
 		});
 	}
+
+  init();
 });
