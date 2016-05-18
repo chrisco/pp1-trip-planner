@@ -1,0 +1,24 @@
+{
+  "Sheet1" : [
+{
+      "group" : "Galvanize",
+      "venue" : "Galvanize - Platte St",
+      "address" : "1644 Platte St, Denver, CO 80202"
+    },
+{
+      "group" : "Galvanize",
+      "venue" : "Galvanize - Golden Triangle",
+      "address" : "1062 Delaware St, Denver, CO 80204"
+    },
+{
+      "group" : "Meetup - Ember Denver",
+      "venue" : "Digabit",
+      "address" : "850 Englewood Pkwy, Englewood, CO 80110"
+    },
+{
+      "group" : "Meetup - Ember Denver",
+      "venue" : "Cirro",
+      "address" : "2500 Larimer St, Denver, CO 80205"
+    }
+  ]
+}
