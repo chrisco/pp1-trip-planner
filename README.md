@@ -2,20 +2,19 @@
 
 * This is our first personal project as part of the Galvanize Full Stack program.
 * The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, Bootstrap, and agile software development with Scrum.
-* The approved project proposal is below.
-* See the current state of the app at https://pp1-trip-planner.firebaseapp.com/
+* The app lives at https://pp1-trip-planner.firebaseapp.com/
 
 ## Project Proposal
 
-Travel app that helps people decide how to get from Point A to Point B.
+App to help new Galvanize students find their way to and from Meetups and other points of interest, get to know Denver, and get more exercise all at the same time.
 
 ### Who Uses It?
 
-Local and regional travelers.
+Galvanize students (especially new ones).
 
 ### What Outputs Do They Need?
 
-Travel options and key details, such as estimated time, distance, and cost.
+Directions from Point A to Point B.
 
 ### What Inputs Are Needed to Generate Those Outputs?
 
@@ -42,7 +41,7 @@ Valid starting point and ending point.
 
 ### Process
 
-* Agile software development with Scrum
+* Use agile software development with Scrum
 * Write User Stories for a Persona (see below)
 * Manage User Stories with [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/1590193)
 * Practice a solid Git workflow (branches, etc.)
