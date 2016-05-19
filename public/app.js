@@ -1,11 +1,11 @@
 $(document).ready(function() {
-	// $.get("venues.json").then(createOptions); // TODO: Better name: things?
+	// $.get("meetups.json").then(createOptions);
 
-	function createOptions(rawData) { // TODO: Better name???
-		rawData.forEach(function(thing) { // TODO: Better name: thing?
+	function createOptions(data) {
+		data.forEach(function(meetup) {
 			var $option = $("<option>")
-				.text(thing.name + " at " + thing.venue)
-				.attr("value", thing.address);
+				.text(meetup.name + " at " + meetup.venue)
+				.attr("value", meetup.address);
 			var $option2 = $option.clone();
 			$("#start").append($option);
 			$("#end").append($option2);
