@@ -52,4 +52,4 @@ Valid starting point and ending point.
 
 ### Wireframe
 
-![Persona](wireframe-1-home-page.png)
+![Persona](wireframe.png)
