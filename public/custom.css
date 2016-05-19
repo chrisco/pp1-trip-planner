@@ -11,8 +11,8 @@
 }
 
 #map {
-  width: 66vw;
-  height: 66vw;
+  width: 60vh;
+  height: 60vh;
   background-color: hsl(221, 61%, 90%);
   margin: 3vh auto;
 }
