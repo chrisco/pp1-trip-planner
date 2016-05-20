@@ -1,5 +1,7 @@
 function initMap() {
 	var markerArray = [];
+	var distance; // See lines 56 to 61 (as of now, anyway)
+	var duration; // And function at the bottom of the file
 
 	// Instantiate a directions service.
 	var directionsService = new google.maps.DirectionsService;
@@ -54,6 +56,10 @@ function calculateAndDisplayRoute(directionsDisplay, directionsService,
 			document.getElementById('warnings-panel').innerHTML =
 				'<b>' + response.routes[0].warnings + '</b>';
 			directionsDisplay.setDirections(response);
+			distance = directionsDisplay.directions.routes[0].legs[0].distance.text;
+			console.log(distance); // Distance
+			duration = directionsDisplay.directions.routes[0].legs[0].duration.text;
+			console.log(duration); // Duration
 			showSteps(response, markerArray, stepDisplay, map);
 		} else {
 			window.alert('Directions request failed due to ' + status);
