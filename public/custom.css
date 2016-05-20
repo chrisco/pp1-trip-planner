@@ -22,3 +22,7 @@
   align-items: center;
   flex-direction: column;
 }*/
+
+#headerwrap {
+  padding-top: 75px;
+}
