@@ -3,6 +3,7 @@
 * This is our first personal project as part of the Galvanize Full Stack program.
 * The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, Bootstrap, and agile software development with Scrum.
 * The app lives at http://pp1-trip-planner.firebaseapp.com
+* A screencast demo is here: https://youtu.be/lpH4uTjxTec
 
 ## Project Proposal
 
@@ -28,19 +29,22 @@ Valid starting points and ending points.
 * Bootstrap
 * JavaScript
 * jQuery
-* The Google Maps API
+* Google Maps API
 * Firebase
 * Git and Github
+* Goole Docs Spreadsheet
+* tabletop (Node.js package)
 
 ### Feature List
 
 * EPIC: Users submit their starting point and ending point and get results
-* More features are planned
+* More features are planned (see Pivotal Tracker link, below)
 
 ### Process
 
 * Use agile software development with Scrum
 * Write User Stories for a Persona (see below)
+* Write User Stories against the Persona
 * Manage User Stories with [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/1590193)
 * Practice a solid Git workflow (branches, etc.)
 
