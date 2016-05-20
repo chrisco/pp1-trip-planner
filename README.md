@@ -1,16 +1,17 @@
-# Personal Project 1 - Simple Trip Planner App
+# Personal Project 1 - Galvanize Trip Planner App
 
 * This is our first personal project as part of the Galvanize Full Stack program.
 * The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, Bootstrap, and agile software development with Scrum.
-* The app lives at https://pp1-trip-planner.firebaseapp.com/
+* The app lives at http://pp1-trip-planner.firebaseapp.com
 
 ## Project Proposal
 
-App to help new Galvanize students find their way to and from Meetups and other points of interest, get to know Denver, and get more exercise all at the same time.
+An app to help Galvanize students in Denver find their way (walking only, for now) to/from campus and some Meetups of interest.
 
 ### Who Uses It?
 
-Galvanize students (especially new ones).
+* Galvanize students (especially new ones).
+* Anyone else interested in walking directions to/from Galvanize's Denver locations and the Meetups listed.
 
 ### What Outputs Do They Need?
 
@@ -18,26 +19,23 @@ Directions from Point A to Point B.
 
 ### What Inputs Are Needed to Generate Those Outputs?
 
-Valid starting point and ending point.
+Valid starting points and ending points.
 
 ### What Technologies Do You Plan to Use?
 
 * HTML5
 * CSS3
-* SAAS (maybe)
-* A CSS framework, such as Bootstrap or Foundation
+* Bootstrap
 * JavaScript
-* A JavaScript testing framework (stretch)
 * jQuery
-* The Google Maps API (and possibly other APIs)
+* The Google Maps API
 * Firebase
 * Git and Github
-* A continuous integration server (stretch)
 
 ### Feature List
 
-* EPIC: Users submit their starting point and ending point and get results.
-* More features are planned.
+* EPIC: Users submit their starting point and ending point and get results
+* More features are planned
 
 ### Process
 
