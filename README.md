@@ -32,7 +32,7 @@ Valid starting points and ending points.
 * Google Maps API
 * Firebase
 * Git and Github
-* Goole Docs Spreadsheet
+* Goole Docs Spreadsheet ([this one](https://docs.google.com/spreadsheets/d/1MmZROtcJNQnDB1Oi2CDSrSFqNNV5h-Xp0_LsgLMGj3k/edit#gid=0))
 * tabletop (Node.js package)
 
 ### Feature List
