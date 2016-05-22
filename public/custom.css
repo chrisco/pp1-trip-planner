@@ -1,27 +1,9 @@
-/*.container-fluid {
-  background-color: hsl(221, 61%, 60%);
-  width: 70vw;
-}*/
-
-#submit {
-  width: 45vw;
-  /*height: 45vw;
-  background-color: hsl(221, 61%, 90%);
-  margin: 3vh auto;*/
-}
-
 #map {
   width: 60vmin;
   height: 60vmin;
   background-color: hsl(221, 61%, 90%);
   margin: 3vh auto;
 }
-
-/*.center-block {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}*/
 
 #headerwrap {
   padding-top: 70px;

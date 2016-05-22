@@ -26,7 +26,7 @@ Valid starting points and ending points.
 
 * HTML5
 * CSS3
-* Bootstrap
+* Bootstrap (and Bootstrap theme)
 * JavaScript
 * jQuery
 * Google Maps API
@@ -37,14 +37,13 @@ Valid starting points and ending points.
 
 ### Feature List
 
-* EPIC: Users submit their starting point and ending point and get results
+* EPIC: User selects his or her starting point and ending point and see results displayed on map
 * More features are planned (see Pivotal Tracker link, below)
 
 ### Process
 
-* Use agile software development with Scrum
+* Use agile software development with Scrum (daily sprints)
 * Write User Stories for a Persona (see below)
-* Write User Stories against the Persona
 * Manage User Stories with [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/1590193)
 * Practice a solid Git workflow (branches, etc.)
 
@@ -55,3 +54,10 @@ Valid starting points and ending points.
 ### Wireframe
 
 ![Persona](wireframe.png)
+
+### Post Project Links
+
+* [Retrospective](https://docs.google.com/document/d/1GEft_6VCFKWe24gKFD-i0IF9WNi2pnvx2pyDs9BKNdw/edit?usp=sharing)
+* [Write-up](https://docs.google.com/document/d/1NLvDD_ZkjP2xq_XnjAuL6IGbQ3jqbbuEa5rRV9mOB4Y/edit?usp=sharing)
+* [Screencast](https://youtu.be/ungJ0ZAjFC0)
+* [Initial Project Proposal (before pivot)](https://github.com/chrisco/individual-project-proposals)
