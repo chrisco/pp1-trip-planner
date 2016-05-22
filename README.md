@@ -3,7 +3,7 @@
 * This is our first personal project as part of the Galvanize Full Stack program.
 * The purpose is to give us a chance to practice some of the thing we've learned over our first four weeks, which introduced us to HTML, CSS, JavaScript, jQuery, APIs, design, UX, Bootstrap, and agile software development with Scrum.
 * The app lives at http://pp1-trip-planner.firebaseapp.com
-* A screencast demo is here: https://youtu.be/lpH4uTjxTec
+* A screencast demo is here: https://youtu.be/ungJ0ZAjFC0
 
 ## Project Proposal
 
