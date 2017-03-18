@@ -32,9 +32,6 @@
   <!-- Google Maps -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX08t4Vu-mrCGjrfRINnqm3rdneDvNMkY&callback=initMap" async defer></script>
 
-  <!-- Just for debugging purposes. Don't actually copy this line! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -145,8 +142,6 @@
   </div>
   <! --/service -->
 
-
-
   <!-- *****************************************************************************************************************
    TESTIMONIALS
    ***************************************************************************************************************** -->
@@ -166,8 +161,6 @@
   </div>
   <! --/twrap -->
 
-
-
   <!-- *****************************************************************************************************************
    FOOTER
    ***************************************************************************************************************** -->
@@ -178,7 +171,9 @@
           <h4>About</h4>
           <a name="about"></a>
           <div class="hline-w"></div>
-          <p>The purpose of this project is to give us a chance to practice the thing we've learned over our first month of the Galvanize Full Stack program. If you want to work on this project together, just let me know and we can turn it into a class project. It would be great to leave something useful to the next generations of Galvanize students. A few feature ideas already on the backlog: User accounts, profiles, favorites, categories, tags, search, and navigation.</p>
+          <p>The purpose of this project is to give us a chance to practice things we've learned during the first month of the Galvanize Full Stack program. <a href="https://youtu.be/ungJ0ZAjFC0">Here's a screencast</a> I made about the project. If you want
+            to work on this project together, get in touch and we can turn it into a class project. It would be great to leave something useful to the next generations of Galvanize students. A few feature ideas already on the backlog: User accounts, profiles,
+            favorites, categories, tags, search, and navigation.</p>
         </div>
         <div class="col-lg-4">
           <h4>Contact</h4>
@@ -222,10 +217,9 @@
   <script src="assets/js/jquery.isotope.min.js"></script>
   <script src="assets/js/custom.js"></script>
 
-
   <script>
     // Portfolio
-    (function($) {
+    (function ($) {
       "use strict";
       var $container = $('.portfolio'),
         $items = $container.find('.portfolio-item'),
@@ -248,10 +242,10 @@
       }, refreshWaypoints());
 
       function refreshWaypoints() {
-        setTimeout(function() {}, 1000);
+        setTimeout(function () {}, 1000);
       }
 
-      $('nav.portfolio-filter ul a').on('click', function() {
+      $('nav.portfolio-filter ul a').on('click', function () {
         var selector = $(this).attr('data-filter');
         $container.isotope({
           filter: selector
@@ -284,7 +278,7 @@
           columnNumber = getColumnNumber(),
           itemWidth = Math.floor(winWidth / columnNumber);
 
-        $container.find('.portfolio-item').each(function() {
+        $container.find('.portfolio-item').each(function () {
           $(this).css({
             width: itemWidth + 'px'
           });
@@ -296,11 +290,11 @@
         $container.isotope('reLayout');
       }
 
-      $container.imagesLoaded(function() {
+      $container.imagesLoaded(function () {
         setPortfolio();
       });
 
-      $(window).on('resize', function() {
+      $(window).on('resize', function () {
         setPortfolio();
       });
     })(jQuery);
